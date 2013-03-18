@@ -21,31 +21,31 @@ sf.is(list)
 Takes a list of string values to check for and returns a switch function that checks for them.
 
 Arguments: 
-* list [Array]
+* list *Array*
 
 Returns:
-* [Function](val [String])
+* *Function*(val *String*)
 
 sf.allow(safe)
 ----------
 Takes a safe string and returns a function that filters out everything except safe charecters.
 
 Arguments: 
-* safe [String]
+* safe *String*
 
 Returns:
-* [Function](unsafe [String])
+* *Function* (unsafe *String*)
 
 sf.run(what, functions)
 ----------
 Runs a function from a hash. Similar to switch, but with a different syntax.
 
 Arguments: 
-* what [Hash]
-* functions [List] ([Function](hash [Hash]))
+* what *Hash*
+* functions *List* ( *Function* (hash *Hash*))
 
 Returns:
-* [Mixed] functionReturnVal
+* *Mixed* functionReturnVal
 
 Example:
 ```javascript
