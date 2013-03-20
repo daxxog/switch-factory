@@ -35,7 +35,7 @@
         };
     };
     
-    var filterStr = 'qwertyuiopasdfghjklzxcvbnm1234567890 {}[];:/,.<>()!@#$%^&*~`|',
+    var filterStr = 'QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890 {}[];:/,.<>()!@#$%^&*~`|',
         numbersOnlyStr = '1234567890';
     
     var filter = allow(filterStr),
