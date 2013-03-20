@@ -3,7 +3,7 @@
     "description" : "Functions that build switch functions.",
     "homepage"    : "https://github.com/daxxog/switch-factory",
     "main"        : "sf.js",
-    "version"     : "0.0.3",
+    "version"     : "0.0.4",
     "engines": { "node" : ">=0.4.0" },
     "maintainers": [{
         "name"  : "David Volm",
