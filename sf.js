@@ -100,7 +100,7 @@
             }
         },
         allow: function(_valid) { //faster str-allow with switches
-            var valid = this.is(_valid.split(''));
+            var valid = sf.is(_valid.split(''));
             
             return function(str) {
                 var _valid = '';
