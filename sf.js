@@ -35,7 +35,7 @@
         };
     };
     
-    var filterStr = 'QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890 {}[];:/,.<>()!@#$%^&*~`|_+=-',
+    var filterStr = 'QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890 {}[];:/,.<>()!@#$%^&*~`|_+=-"',
         numbersOnlyStr = '1234567890';
     
     var filter = allow(filterStr),
@@ -76,7 +76,7 @@
                 fx += 'case ' + i + ':switch(s){';
                 
                 v.forEach(function(v, i, a) {
-                    fx += 'case "' + v + '":';
+                    fx += 'case \'' + v + '\':';
                 });
                 
                 fx += 'return true;}return false;';
